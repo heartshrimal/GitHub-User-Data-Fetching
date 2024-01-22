@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a478b8;
+}
+img{
+    margin-left:50px;
+}
+.container {
+    text-align: center;
+    border: #111;
+    border-style: solid;
+    background-color: #e0c2f2;
+    border-width: 5px;
+    border-radius: 5%;
+    margin:5%;
+    padding: 5%;
+    display: grid;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+input {
+    padding: 8px;
+    width: 225px;
+    border-width: 0;
+    margin: 0;
+    border-radius: 7px;
+    background-color: #3f1651;
+    color: white;
+}
+input::placeholder{
+    color: rgb(170, 170, 170);
+}
+button {
+    padding: 8px 16px;
+    width:100px;
+    cursor: pointer;
+    background-color: #f5ae52;
+    border-radius: 7px 10px;
+}
+button:hover{
+    background-color: #ebbe84;
+}
+button:active{
+    color: #ffffff;
+}
+
+#userData {
+    margin-top: 20px;
+}
+#flex1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto 0;
+}
+#userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    p{
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+#avatar {
+    margin-bottom: 10px;
+}
+
+#repos {
+    margin-top: 20px;
+}
+
+.repo {
+    margin-bottom: 10px;
+}
